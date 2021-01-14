@@ -14,7 +14,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface MySqlService {
-    //소환사 데이터베이스
+    //서모너 데이터베이스
     @POST("Summoner_Insert.php")
     Call<Void> summoner_Insert(@Body SummonerDTO s);
 
